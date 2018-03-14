@@ -1,13 +1,16 @@
 .App {
 	background-color: #272f38;
-	padding: 7.5%;
 }
 
 .App h1 {
 	text-align: center;
 	margin: 0;
-	color: white;
+	color: #506072;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 60px;
 	text-transform: uppercase;
+	background-color: white;
+	padding: 20px;
+	margin: 0 20%;
+	border-radius: 0 0 40px 40px;
 }
