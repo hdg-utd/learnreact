@@ -1,0 +1,55 @@
+.MessageItem {
+	background-color: white;
+	list-style: none;
+	margin: 45px auto;
+	width: 50%;
+	padding: 20px;
+	color: #94d3e8;
+	border-radius: 25px;
+}
+
+.MessageItem h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 37.5px;
+	margin: 0;
+}
+
+.MessageItem h6 {
+	margin: 7.5px 0 25px;
+	font-size: 22.5px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.MessageItem .playback-type{
+	text-align: center;
+}
+
+.MessageItem .playback-type a {
+	text-decoration: none;
+	font-size: 22.5px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 10px;
+	background-color: #506072;
+	color: white;
+	padding: 5px 20px;
+	margin: 0 10px;
+}
+
+@media screen and (max-width: 576px) {
+	.MessageItem {
+		width: 80%;
+		margin: 30px auto;
+	}
+
+	.MessageItem h2 {
+		font-size: 30px;
+	}
+
+	.MessageItem h6 {
+		font-size: 17.5px;
+	}
+
+	.MessageItem .playback-type a {
+		font-size: 17.5px;
+	}
+}
